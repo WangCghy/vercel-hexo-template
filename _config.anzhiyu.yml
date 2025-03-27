@@ -23,14 +23,17 @@ menu:
 # nav相关配置
 nav:
   enable: true
-  travelling: true
-  clock: true
+  travelling: false
+  clock: false
   menu:
     - title: 网页
       item:
         - name: npm
           link: https://npm.005595.xyz/
           icon: https://picgo.wanc.eu.org/PicGo/20250327112418011.svg
+        - name: 照片
+          link: https://p.npm.005595.xyz/
+          icon: https://picgo.wanc.eu.org/PicGo/20250327172839711.svg
     - title: 项目
       item:
         - name: 小白菜图床
