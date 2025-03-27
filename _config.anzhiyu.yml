@@ -5,20 +5,20 @@ menu:
      标签: /tags/ || anzhiyu-icon-tags
 
    友链:
-     友人帐: /link/ || anzhiyu-icon-link
-     朋友圈: /fcircle/ || anzhiyu-icon-artstation
+#     友人帐: /link/ || anzhiyu-icon-link
+#     朋友圈: /fcircle/ || anzhiyu-icon-artstation
      留言板: /comments/ || anzhiyu-icon-envelope
 
-   我的:
-     音乐馆: /music/ || anzhiyu-icon-music
-     追番页: /bangumis/ || anzhiyu-icon-bilibili
-     相册集: /album/ || anzhiyu-icon-images
-     小空调: /air-conditioner/ || anzhiyu-icon-fan
+#   我的:
+#     音乐馆: /music/ || anzhiyu-icon-music
+#     追番页: /bangumis/ || anzhiyu-icon-bilibili
+#     相册集: /album/ || anzhiyu-icon-images
+#     小空调: /air-conditioner/ || anzhiyu-icon-fan
 
    关于:
      关于本人: /about/ || anzhiyu-icon-paper-plane
-     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+#     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+#     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -28,14 +28,14 @@ nav:
   menu:
     - title: 网页
       item:
-        - name: 小白菜博客
-          link: https://blog.anheyu.com/
-          icon: /img/favicon.ico
+        - name: npm
+          link: https://npm.005595.xyz/
+          icon: https://picgo.wanc.eu.org/PicGo/20250327112418011.svg
     - title: 项目
       item:
         - name: 小白菜图床
           link: https://image.wanc.eu.org/
-          icon: https://image.anheyu.com/favicon.ico
+          icon: https://picgo.wanc.eu.org/PicGo/20250327112629086.svg
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -71,12 +71,12 @@ social:
 
 # 作者卡片 状态
 author_status:
-  enable: false
+  enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://cdn.jsdelivr.net/gh/zc998800/cdn/face/gif/p065.gif"
   skills:
     - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
+     - 🔍 分享与热心帮助
     # - 🏠 智能家居小能手
     - 🔨 设计开发一条龙
     # - 🤝 专修交互与设计
@@ -110,7 +110,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: true
   CDN:
 
@@ -146,11 +146,11 @@ avatar:
 # Disable all banner image
 disable_top_img: false
 
-# The banner image of home page
-index_img: false # "background: url() top / cover no-repeat"
+# 首页封面
+index_img: "background: url(https://picgo.wanc.eu.org/PicGo/202402181545949.png) top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: false
+default_top_img: https://picgo.wanc.eu.org/PicGo/202402181545949.png
 
 cover:
   # display the cover or not (是否显示文章封面)
@@ -162,7 +162,7 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    # - /img/default_cover.jpg
+     - https://picgo.wanc.eu.org/PicGo/202402181545949.png
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
@@ -201,7 +201,7 @@ mainTone:
 # wordcount (字数统计)
 # see https://blog.anheyu.com/posts/c27d.html#字数统计
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -314,7 +314,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use: # Twikoo/Waline
+  use: Twikoo
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -325,8 +325,8 @@ comments:
 # valine
 # https://valine.js.org
 valine:
-  appId: xxxxx # leancloud application app id
-  appKey: xxxxx # leancloud application app key
+  appId: zOAIdP4Zx54NSTtgLaEeswLZ-gzGzoHsz # leancloud application app id
+  appKey: DbjV8Q6uQcCgVukHUh4HeYxb # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: mp # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
@@ -360,9 +360,9 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
-  region:
-  visitor: false
+  envId: https://twikoo.wanc.eu.org
+  region: ap-shanghai
+  visitor: true
   option:
 
 # Artalk
@@ -378,10 +378,10 @@ artalk:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
-chat_hide_show: false
+chat_hide_show: true
 
 # chatra
 # https://chatra.io/
@@ -491,13 +491,13 @@ footer:
       #     - title: 更新日志
       #       link: /update/
       # - title: 导航
-      #   links:
-      #     - title: 即刻短文
-      #       link: /essay/
-      #     - title: 友链文章
-      #       link: /fcircle/
-      #     - title: 留言板
-      #       link: /comments/
+#         links:
+#           - title: 即刻短文
+#             link: /essay/
+#           - title: 友链文章
+#             link: /fcircle/
+#           - title: 留言板
+#             link: /comments/
       # - title: 协议
       #   links:
       #     - title: 隐私协议
@@ -768,7 +768,7 @@ subtitle:
 
 # Loading Animation (加载动画)
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -776,7 +776,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg # 自定加载动画义头像
+  avatar: https://img02.anheyu.com/adminuploads/1/2023/05/09/645a3ff0dc540.gif # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -837,9 +837,9 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -1060,10 +1060,10 @@ home_top:
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
-    tips: 安知鱼官方文档
-    title: Theme-AnZhiYu
-    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://docs.anheyu.com/
+    tips: 面向百度开发
+    title: Baidu
+    image: https://webp.wanc.eu.org/PicGo/202402181545949.png
+    link: https://www.baidu.com/
 
 # 朋友圈配置
 friends_vue:
@@ -1206,7 +1206,7 @@ rightClickMenu:
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
+  enable: false
   img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ee23df8517f3c3e3efc4145658269c06_5446750740417254342..png
 
 # 动效

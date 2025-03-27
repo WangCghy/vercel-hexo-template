@@ -2,6 +2,8 @@
 title: 在软路由IStore上进行优选IP！让你的节点速度飞起来
 date: 2024-01-14 00:43:30
 tags: 软路由
+top_img: https://picgo.wanc.eu.org/PicGo/202402181545949.png
+
 ---
 
 ## 感谢勇哥提供的教程与视频

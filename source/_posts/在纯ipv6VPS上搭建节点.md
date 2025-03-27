@@ -2,6 +2,8 @@
 title: 在纯ipv6VPS上搭建节点
 date: 2024-01-14 00:33:01
 tags: VPS
+categories: 生活日常
+cover: https://picgo.wanc.eu.org/PicGo/202402181545949.png
 ---
 
 ## 前言

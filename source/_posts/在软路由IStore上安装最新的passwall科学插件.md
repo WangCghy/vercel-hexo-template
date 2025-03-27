@@ -2,6 +2,8 @@
 title: 在软路由IStore上安装最新的passwall科学插件
 date: 2024-01-14 00:35:54
 tags: 软路由
+swiper_index: 1
+top_group_index: 1
 ---
 
 1、passwall开源项目地址：【[点击进入](https://github.com/xiaorouji/openwrt-passwall/releases)】
